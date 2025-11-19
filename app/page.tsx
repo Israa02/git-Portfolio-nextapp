@@ -1,10 +1,9 @@
-import Navbar from "@/Components/Navbar";
+
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-radial from-purple-300 to-pink-300">
-      <Navbar />
       <section className="max-w-3xl mx-auto p-6 leading-relaxed text-black">
         <Image
           src="/avatar1.png"

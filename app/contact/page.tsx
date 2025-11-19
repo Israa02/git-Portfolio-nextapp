@@ -1,10 +1,8 @@
 import Image from "next/image";
-import Navbar from "@/Components/Navbar";
 
 export default function Contact() {
   return (
     <div className="min-h-screen bg-radial from-purple-300 to-pink-300">
-      <Navbar />
       <section className="max-w-3xl mx-auto p-6 leading-relaxed text-black">
         <h1 className="text-4xl font-bold mb-6 text-pink-800">Me Contacter</h1>
 
